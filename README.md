@@ -6,6 +6,15 @@ I consider it very important and I have uploaded it to GitHub, not because it is
 
 ## Cuourse of the project 😎😎😎😎
 
+[WebSite](https://sebasttiandaza.github.io/listofPersons-/)
+
+
+The Web Application is uploaded on GitHub Pages so you can interact and see the project in its final base.
+
+🎶🎶🎶
+
+The project was developed in the course of the JavaScript University course found on [Udemy](https://www.udemy.com/course/universidad-javascript-angular-react-vue-typescript-html-css-bootstrap/).An excellent course totally recommended
+
 
 
 
