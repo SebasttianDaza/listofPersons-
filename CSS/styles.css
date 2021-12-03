@@ -1,0 +1,101 @@
+html {
+    background-color: #2196f3;
+    min-height: 1000px;
+    font-size: sans-serif;
+    font-family: helvetica;
+    background: url(fondo.png), #2196f3;
+    background: url(fondo.png),
+        -webkit-gradient(linear, right top, left top, from(#2196f3), to(#009688));
+    background: url(fondo.png),
+        linear-gradient(to left, #2196f3, #009688);
+    
+}
+
+.contenedor h1 {
+    color: #fff;
+    padding: 10px;
+}
+
+.contenedor {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#cabecero {
+    background-color: #3f51b5;
+    text-align: center;
+}
+
+.elemento {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1 px solid black;
+    
+}
+
+.elemento:last-child {
+    border-bottom: 0;
+}
+
+input[type="checbox"] {
+    margin: 20px;
+}
+
+p {
+    margin: 0px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+}
+
+form {
+    text-align: center;
+    margin-left: 20px;
+}
+
+.btndi {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 20%;
+    border-color: transparent;
+    background-color: #3f51b5;
+    color: white;
+    font-size: 30px;
+    padding-bottom: 6px;
+    border-width: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input[type = 'text'] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-weight: 200;
+    width: 40%;
+}
+
+input[type = 'text']:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0  #3f51b5;
+}
+
+::placeholder {
+    color: grey;
+    opacity: 1;
+}
